@@ -1,0 +1,67 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Container */
+
+	.container {
+		margin: 0 auto;
+		max-width: calc(100% - 4em);
+		width: 35em;
+	}
+
+		.container.xsmall {
+			width: 8.75em;
+		}
+
+		.container.small {
+			width: 17.5em;
+		}
+
+		.container.medium {
+			width: 26.25em;
+		}
+
+		.container.large {
+			width: 43.75em;
+		}
+
+		.container.xlarge {
+			width: 52.5em;
+		}
+
+		.container.max {
+			width: 100%;
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.container {
+				width: 80% !important;
+				max-width: 100% !important;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.container {
+				width: 100% !important;
+			}
+
+		}
+
+
+body {
+    font-family: 'Arvo', serif;
+}
